@@ -1,0 +1,125 @@
+﻿html {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 10px;
+  text align : center;
+  background:#FFFFFF; 
+}
+
+a.two:link {
+color:#ff0000;
+text-decoration:none;
+}
+a.two:visited {
+color:#0000ff;
+text-decoration:none;
+}
+a.two:hover {
+font-size:110%;
+text-decoration:none;
+}
+
+div {
+  display: block;
+  width: 25rem;
+  height: 3.5rem;
+  background: #87CEFA;
+  transition: width 2s, height 2s;
+}
+div:hover {
+  width: 100rem;
+  height: 3.5rem;
+}
+
+   
+ul.ex1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 1.5rem;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  background-color: #800000;
+}
+h5 {
+  font-size: 2rem;
+  border-left: 5px solid #778899;
+  
+  
+}
+h3 {
+  font-size: 3.5rem;
+  border-left: 5px solid #778899;
+ 
+  
+}
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.5rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+div.a1 {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0rem; }
+  13%   {background-color:orangered; left:30rem; }
+  25%  {background-color:#48D1CC; left:60rem; }
+  38%   {background-color:#98FB98; left:90rem; }
+  50%  {background-color:#DA70D6; left:120rem; }
+  63%   {background-color:#FFFF00; left:90rem; }
+  75%  {background-color:#FFA07A; left:60rem;}
+  88%   {background-color:SteelBlue; left:30rem; }
+  100% {background-color:red; left:0rem;}
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  padding: 5px;
+  width: 20%;
+}
