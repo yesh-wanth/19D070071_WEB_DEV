@@ -106,13 +106,9 @@ div.a1 {
 
 @keyframes example {
   0%   {background-color:red; left:45rem; }
-  13%   {background-color:orangered; left:50rem; }
-  25%  {background-color:#48D1CC; left:55rem; }
-  38%   {background-color:#98FB98; left:60rem; }
+ 
   50%  {background-color:#DA70D6; left:75rem; }
-  63%   {background-color:#FFFF00; left:60rem; }
-  75%  {background-color:#FFA07A; left:55rem;}
-  88%   {background-color:SteelBlue; left:50rem; }
+  
   100% {background-color:red; left:45rem;}
 }
 img {
