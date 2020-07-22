@@ -120,6 +120,9 @@ nav a:focus{
         width: 60%;
     
     }
+    body {
+        overflow-x: hidden;
+    }
     
 }
 
