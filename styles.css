@@ -31,6 +31,23 @@ img {
 
 /* typography
 ****** */
+a {
+    
+    color: white;
+    
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  
+  a:hover {
+    color: rgb(235, 140, 140);
+    cursor: pointer;
+  }
+  
+  
+  a:visited {
+    color: #ccc;
+  }
 
 .title {
     font-size: 2.3rem;
