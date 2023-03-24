@@ -155,7 +155,7 @@ line-height:140%;
 <div id="status">Connection Status: Not Connected</div>
 </div>
 <br>
-	 <form name="connform" action="" onsubmit="return MQTTconnect()">
+	 <form name="connform" action="" onsubmit="MQTTconnect(); return false">
 
 Server:  <input type="text" name="server"><br><br>
 Port:    <input type="text" name="port"><br><br>
